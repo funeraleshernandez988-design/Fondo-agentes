@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Panel de Agente</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1f2937, #111827);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    padding: 30px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    width: 90%;
+    max-width: 1000px;
+    margin-bottom: 40px;
+}
+
+.card {
+    background: #1f2933;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.2s ease, background 0.2s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: #374151;
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: auto;
+    padding: 15px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+Panel del Agente
+</header>
+
+<div class="grid">
+
+<a class="card" href="https://funeralesher.intelisipco.com/agc/vicidial.php" target="_blank">
+<div class="icon">📞</div>
+Conexion al Sistema
+</a>
+
+<a class="card" href="https://LINK2.com" target="_blank">
+<div class="icon">📊</div>
+Reportes
+</a>
+
+<a class="card" href="https://LINK3.com" target="_blank">
+<div class="icon">📁</div>
+Documentos
+</a>
+
+<a class="card" href="https://LINK4.com" target="_blank">
+<div class="icon">💬</div>
+Chat Interno
+</a>
+
+<a class="card" href="https://LINK5.com" target="_blank">
+<div class="icon">🧾</div>
+Guiones
+</a>
+
+<a class="card" href="https://LINK6.com" target="_blank">
+<div class="icon">⚙️</div>
+Soporte Técnico
+</a>
+
+</div>
+
+<footer>
+Panel interno — Funerales Hernández
+</footer>
+
+</body>
+</html>
